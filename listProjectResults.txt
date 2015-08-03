@@ -1,0 +1,35 @@
+----------------------------------------
+Unsorted List Results
+Time: 1056 milliseconds
+Total number of words: 32247
+Total number of distinct words: 4721
+Total number of comparisons: 79570291
+Total number of reference changes: 4721
+----------------------------------------
+Alphabetical List Results
+Time: 671 milliseconds
+Total number of words: 32247
+Total number of distinct words: 4721
+Total number of comparisons: 48574211
+Total number of reference changes: 4712
+----------------------------------------
+First Self-Adjusting List Results
+Time: 309 milliseconds
+Total number of words: 32247
+Total number of distinct words: 4721
+Total number of comparisons: 20219121
+Total number of reference changes: 59523
+----------------------------------------
+Second Self-Adjusting List Results
+Time: 1008 milliseconds
+Total number of words: 32247
+Total number of distinct words: 4721
+Total number of comparisons: 76545920
+Total number of reference changes: 87054
+----------------------------------------
+Binary Tree List Results
+Time: 67 milliseconds
+Total number of words: 32247
+Total number of distinct words: 4721
+Total number of comparisons: 343994
+Total number of reference changes: 4721
