@@ -24,7 +24,7 @@ end slow_clk_signal;
 
 architecture slow_clock of slow_clk_signal is
 
-signal counter   :std_logic_vector(3 downto 0);--24
+signal counter   :std_logic_vector(24 downto 0);
 signal int_clk   :std_logic;
 signal term_cnt  :std_logic;
 
@@ -70,6 +70,7 @@ led11  <= '1';
 	
 	-- this logic inverts term_count every sec. with a 32MHz clk_in frequency
 	term_cnt <= '1' when(counter = "1111")else '0'; --1111010000100100000000000
+	term_cnt <= '1' when(counter = "1111010000100100000000000")else '0';
 
 
 	process(clk_in,reset,term_cnt)
