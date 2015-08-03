@@ -69,7 +69,6 @@ led11  <= '1';
 	end process;
 	
 	-- this logic inverts term_count every sec. with a 32MHz clk_in frequency
-	term_cnt <= '1' when(counter = "1111")else '0'; --1111010000100100000000000
 	term_cnt <= '1' when(counter = "1111010000100100000000000")else '0';
 
 
