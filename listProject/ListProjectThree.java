@@ -29,7 +29,7 @@ public class ListProjectThree
 {
 	// constant string that is the name of the .txt file of Hamlet declared here at the 
 	// start of the code so that if a different file needs to be tested it can be changed here
-	static final String FILE_NAME = "Shakespeare.txt";
+	static final String FILE_NAME = "Hamlet.txt";
 	
 	// start time and end time are used to calculate the total time each list runs
 	static long startTime;
@@ -275,17 +275,6 @@ public class ListProjectThree
 				+ "\nTotal number of reference changes: " + binTree.numOfRefChanges + "\n");
 		
 		// close the file
-		input.close();
-		
-	}// end of main
-
-}// end if class ListProjectTwo
-isons
-				+ "\nTotal number of reference changes: " + firstSelfAdj.numOfRefChanges + "\n");
-		
-		// print out the first fifty words of the list
-		System.out.print("\n" + firstSelfAdj.printList(50) + "\n\n");
-*/		// close the file
 		input.close();
 		
 	}// end of main
